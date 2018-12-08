@@ -54,11 +54,13 @@ into the {body} of the default.hbs template --}}
                 from includes/byline-multiple.hbs, otherwise, we just use the
                 default byline. --}}
 
-                {{#has author="count:>1"}}
+                {{!-- Below code is commented out as I am the sole author of the blog and don't want to display author info under each post --}}
+
+                {{!-- {{#has author="count:>1"}}
                     {{> "byline-multiple"}}
                 {{else}}
                     {{> "byline-single"}}
-                {{/has}}
+                {{/has}} --}}
 
             </footer>
 
