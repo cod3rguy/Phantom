@@ -1,6 +1,6 @@
 {
-    "name": "casper",
-    "description": "The default personal blogging theme for Ghost. Beautiful, minimal and responsive.",
+    "name": "phantom",
+    "description": "Modified Casper theme used on my personal site https://coderguy.me",
     "demo": "https://demo.ghost.io",
     "version": "2.7.0",
     "engines": {
